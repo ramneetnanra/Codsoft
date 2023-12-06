@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utils.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+    <div class="container mx-auto">
+
+        <!-- Header -->
+
+        <header>
+            <nav class="flex justify-between">
+                <div class="flex logo items-center">Ramneet Kaur Nanra</div>
+                <ul class="flex navbar items-center">
+                    <li><a href="#home-page">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#my-skills">Skills</a></li>
+                    <li><a href="#resumee">Resume</a></li>
+                    <li><a href="#contact-me">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="min-h-screen">
+
+            <!-- Home -->
+
+            <section id="home-page">
+                <div class="home-content">
+                    <div class="name">
+                        <h1 class="px-margin hx-font-size">Hi, I'm Ramneet</h1>
+                        <p class="px-fontsize">A Web Developer in training.</p>
+                    </div>
+                    <div class="angle-down-icon">
+                        <a href="#about"><i class="fa-solid fa-angles-down"></i></a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About -->
+
+            <section id="about">
+                <div class="about-content">
+                <h3>About Me</h3>
+                    <div class="about-box flex">
+                        <div class="about-left flex flex-col justify-center p-padding">
+                            <img src="photo.png" alt="My photo">
+                        </div>
+                        <div class="about-right">
+                            <p>I'm a BCA graduate, passionate about leveraging technology to create meaningful solutions.
+                                I've honed my skills in programming languages like C, C++, Java, and Python. My web design 
+                                expertise spans MS Office, PHP, HTML, and Javascript. I bring a versatile skill set to the 
+                                table. But it's not just about the tech - I thrive in teamwork, excel in organization, and
+                                tackle challenges with a sense of responsibility and adaptability.
+                            </p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+
+            <!-- skills -->
+
+            <section id="my-skills">
+                <div class="skills">
+                    <h3>My Skills</h3>
+                    <div class="skills-bar">
+                        <div class="bar">
+                            <div class="info">
+                                <span>HTML</span>
+                            </div>
+                            <div class="progress-line"><span class="html"></span></div>
+                        </div>
+                        <div class="bar">
+                            <div class="info">
+                                <span>CSS</span>
+                            </div>
+                            <div class="progress-line"><span class="css"></span></div>
+                            <div class="bar">
+                                <div class="info">
+                                    <span>JAVASCRIPT</span>
+                                </div>
+                                <div class="progress-line"><span class="javascript"></span></div>
+                                <div class="bar">
+                                    <div class="info">
+                                        <span>Java Programming</span>
+                                    </div>
+                                    <div class="progress-line"><span class="java"></span></div>
+                                    <div class="bar">
+                                        <div class="bar">
+                                            <div class="info">
+                                                <span>Python Programming</span>
+                                            </div>
+                                            <div class="progress-line"><span class="python"></span></div>
+                                        </div>
+                                        <div class="info">
+                                            <span>C Programming</span>
+                                        </div>
+                                        <div class="progress-line"><span class="c"></span></div>
+                                        <div class="bar">
+                                            <div class="info">
+                                                <span>C++ Programming</span>
+                                            </div>
+                                            <div class="progress-line"><span class="cplus"></span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- Resume -->
+
+            <section id="resumee">
+                <div class="resume">
+                    <h3>Resume</h3>
+                    <div class="my-resume">
+                        <iframe src="https://drive.google.com/file/d/1Zt9IcW0-XvvjhzPxIeqZ4og4VpSlwwIb/preview" 
+                        allow="autoplay"></iframe>
+                    </div>
+                    <!-- <p><a href="RESUME.pdf" target="_blank">Download</a></p> -->
+                </div>
+            </section>
+
+            <!-- Contact -->
+
+            <section class="contact" id="contact-me">
+                <div class="contact-form items-center">
+                    <h3>Contact Me</h3>
+                    <form class="contact-container">
+                  
+                        <label for="fname">First Name:</label>
+                        <input type="text" id="fname" name="name" placeholder="First Name" required>
+
+                        <label for="lname">Last name:</label>
+                        <input type="text" id="lname" name="name" placeholder="Last Name" required>
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Email" required>
+
+                        <label for="subject">Message:</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:150px"></textarea>
+                    
+                        <button type="submit">Send Message</button>
+                  
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+
+        <footer>
+            <div class="footer-container">
+                <p class="mail">Get in touch with me <i class="fa-solid fa-arrow-right"></i>
+                    ramneet.nanra@gmail.com</p>
+                <p class="links">Or find me on:</p>
+                <br>
+                <a href="https://www.linkedin.com/in/ramneet-kaur-nanra-450149220/" target="_blank">
+                    <i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/ramneetnanra" target="_blank">
+                    <i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/ramneet_nanra/" target="_blank">
+                    <i class="fa-brands fa-instagram"></i></a>
+                    
+            </div>
+
+        </footer>
+    </div>
+</body>
+
+</html> 
