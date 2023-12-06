@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu:wght@500&display=swap');
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex {
+    display: flex;
+    padding: 0 20px;
+}
+
+.min-h-screen {
+    min-height: 100vh;
+}
+
+.nav-color {
+    background-color: white;
+}
+
+.bg-color {
+    background-color: rgb(110, 30, 30);
+}
+
+.items-center {
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.px-font{
+    font-size: large;
+}
+
+.font-bold {
+    font-weight: bolder;
+}
+
+.topleft {
+    padding: 50px 20px;
+    width: 65%;
+    height: 65vh;
+}
+
+.topright {
+    padding: 60px 20px;
+}
+
+.main-img {
+    background: url(images/background.jpg);
+
+}
+
+
+
+.main-btn {
+    background-color: #704f2b;
+    padding: 10px 20px;
+    position: relative;
+    top: 55px;
+    border-radius: 6px;
+    width: 80px;
+    border: 2px sienna;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+}
+
+.main-btn:hover{
+    opacity: 0.7;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.p-margin {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.p-fontsize {
+    font-size: 3.5rem;
+}
+
+.p-padding {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.p-color {
+    color: #c0721f;
+}
+
+.px-color {
+    color: #47321c;
+}
+
+.a-padding {
+    padding-left: 20px;
+}
+
+/* About */
+.bottom-left img {
+    padding: 90px 40px;
+    width: 600px;
+}
+
+.bottom-right {
+    padding: 50px 20px;
+    width: 65%;
+    height: 65vh;
+}
+
+.a-padding {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.a-margin {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.px-fontstyle {
+    font-size: 4rem;
+    text-align: left;
+    margin-left: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #c0721f;
+}
+
+.px-margin{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* <div class="absolute left-0 -bottom-4">
+<div class=" number_outline text-primary-default font-normal text-base tracking-normal font-manrope">1
+</div></div> */

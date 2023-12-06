@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="util.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Bookworm's Haven</title>
+</head>
+
+<body>
+    <div class="container mx-auto">
+
+        <!-- Navbar -->
+
+        <header>
+            <nav class="navbar-color flex justify-between">
+                <div class="logo flex items-center">Bookworm's Haven</div>
+                <ul class="navbar flex items-center">
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#about-us">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#book-store">Book Store</a></li>
+                    <li><a href="#contact-us">Contact Us</a></li>
+                    <li><button class="btn">Sign Up</button></li>
+                </ul>
+
+            </nav>
+        </header>
+
+        <main class="min-h-screen">
+
+            <!-- Home -->
+
+            <section class="home-page" id="Home">
+                <div class="flex">
+                    <div class="topleft flex flex-col justify-center p-padding">
+                        <h3 class="p-color">Welcome to Bookworm's Haven</h3>
+                        <h2 class="p-margin px-color p-fontsize">Your Gateway to Endless Stories!</h2>
+                        <p class="px-font">The place where stories come to life! Immerse yourself in a world of
+                            literary wonders with our vast collection of books. Enjoy express delivery, curated
+                            recommendations, and a vibrant community. Join us on a journey where every page turns into
+                            an adventure. Happy reading!</p>
+                        <a class="main-btn">Learn More</a>
+                    </div>
+                    <div class="topright">
+                        <img src="images/books.png" alt="Book image">
+                    </div>
+                </div>
+            </section>
+
+            <!-- Services -->
+
+            <section class="services" id="services">
+                <div class="services-box">
+                    <div class="services-card">
+                        <i class="fa-solid fa-truck"></i>
+                        <h3>Fast Delivery</h3>
+                        <p>Swift delivery, bringing your favorite books to your doorstep.</p>
+                    </div>
+                    <div class="services-card">
+                        <i class="fa-solid fa-headset"></i>
+                        <h3>24 X 7 Services</h3>
+                        <p>Dedicated support for a seamless reading experience.</p>
+                    </div>
+                    <div class="services-card">
+                        <i class="fa-solid fa-tag"></i>
+                        <h3>Best Deals</h3>
+                        <p>Explore endless worlds with our diverse book selection.</p>
+                    </div>
+                    <div class="services-card">
+                        <i class="fa-solid fa-lock"></i>
+                        <h3>Secure Payments</h3>
+                        <p>Shop confidently with our secure and reliable transaction system.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About -->
+
+            <section class="about" id="about-us">
+                <div class="flex">
+                    <div class="bottom-left">
+                        <img src="images/about.jpg" alt="Book image">
+                    </div>
+                    <div class="bottom-right flex flex-col justify-center a-padding">
+                        <h3 class="p-margin px-color p-fontsize">About Us</h3>
+                        <p class="a-margin px-font">
+                            At Bookworm's Haven, we believe in the magic of words and the enchantment of
+                            stories. Nestled in the heart of the literary world, our online bookstore is more than just
+                            a collection of books; it's a haven for bibliophiles, a sanctuary for storytellers, and a
+                            treasure trove for those who seek knowledge, escape, or simply the joy of a good read.
+                            Enjoy a seamless, secure shopping experience, personalized
+                            recommendations, and exclusive events. Join us in celebrating the transformative power of
+                            stories.
+                        </p>
+                        <a class="main-btn">Learn More</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Category -->
+
+            <section>
+                <div class="category">
+                    <h3 class="px-color p-fontsize">Books Category</h3>
+                    <div class="items">
+                        <div class="category-card ">
+                            <div class="category-card-img">
+                                <img src="images/category1.jpg" alt="Book image">
+                                <div class="category-content">
+                                    <h6>Art and Photography</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="category-card">
+                            <div class="category-card-img">
+                                <img src="images/category2.jpg" alt="Book image">
+                                <div class="category-content">
+                                    <h6>Biographies and Memoirs</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="category-card">
+                            <div class="category-card-img">
+                                <img src="images/category3.jpg" alt="Book image">
+                                <div class="category-content">
+                                    <h6>Business and Money</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="category-card">
+                            <div class="category-card-img">
+                                <img src="images/category4.jpg" alt="Book image">
+                                <div class="category-content">
+                                    <h6>Politics and Social Sciences</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Featured Book -->
+
+            <section id="book-store">
+                <div class="featured-books">
+                    <h3 class="px-color p-fontsize">Featured Books</h3>
+                    <div class="featured-box">
+                        <div class="featured-book-card">
+                            <div class="featured-book-img">
+                                <img src="images/book1.jpg" alt="Book image">
+                                <div class="featured-content">
+                                    <h6>The Psychology of Money</h6>
+                                    <p class="writer">Morgan Housel</p>
+                                    <div class="categories">Study Guide</div>
+                                    <p class="book-price">$21.99<sub><del>$25.60</del></sub></p>
+                                    <a class="button">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="featured-book-card">
+                            <div class="featured-book-img">
+                                <img src="images/book2.jpg" alt="Book image">
+                                <div class="featured-content">
+                                    <h6>Predictably Irrational: The Hidden Forces</h6>
+                                    <p class="writer">Dan Arielly</p>
+                                    <div class="categories">Behavioral Economics</div>
+                                    <p class="book-price">$17.50<sub><del>$20.60</del></sub></p>
+                                    <a class="button">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="featured-book-card">
+                            <div class="featured-book-img">
+                                <img src="images/book3.jpg" alt="Book image">
+                                <div class="featured-content">
+                                    <h6>The girls of Victory Street</h6>
+                                    <p class="writer">Pam Howes</p>
+                                    <div class="categories">Historical, Domestic</div>
+                                    <p class="book-price">$25.50<sub><del>$28.60</del></sub></p>
+                                    <a class="button">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="featured-book-card">
+                            <div class="featured-book-img">
+                                <img src="images/book4.jpg" alt="Book image">
+                                <div class="featured-content">
+                                    <h6>Ill-Fame: A Detective Harm Queen Novel</h6>
+                                    <p class="writer">Erik Revenes</p>
+                                    <div class="categories">Mystery, Thriller, Suspense</div>
+                                    <p class="book-price">$25.50<sub><del>$28.60</del></sub></p>
+                                    <a class="button">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="featured-book-card">
+                            <div class="featured-book-img">
+                                <img src="images/book5.jpg" alt="Book image">
+                                <div class="featured-content">
+                                    <h6>The Curious Locket</h6>
+                                    <p class="writer">Leanore Traugot</p>
+                                    <div class="categories">Gothic, Horror</div>
+                                    <p class="book-price">$25.50<sub><del>$28.60</del></sub></p>
+                                    <a class="button">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="featured-book-card">
+                            <div class="featured-book-img">
+                                <img src="images/book6.jpeg" alt="Book image">
+                                <div class="featured-content">
+                                    <h6>Behind Hidden Doors</h6>
+                                    <p class="writer">Gareth Bowery</p>
+                                    <div class="categories">Thriller, Horror, Romance</div>
+                                    <p class="book-price">$25.50<sub><del>$28.60</del></sub></p>
+                                    <a class="button">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Bestseller -->
+
+            <section>
+                <div class="bestseller">
+                    <h3 class="px-color p-fontsize text-center">Bestseller</h2>
+                        <div class="bestseller-box">
+                            <div class="bestseller-card">
+                                <h2 class="px-fontstyle">1</h2>
+                                <div class="bestseller-img">
+                                    <img src="images/best1.jpg" alt="Book image">
+                                    <div class="bestseller-content">
+                                        <h6>Ikigai</h6>
+                                        <p class="writer">Hector Garcia</p>
+                                        <p class="book-price">$25.50<sub><del>$28.60</del></sub></p>
+                                        <a class="b-btn">Buy Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bestseller-card">
+                                <h1 class="px-fontstyle">2</h2>
+                                    <div class="bestseller-img">
+                                        <img src="images/best2.jpeg" alt="Book image">
+                                        <div class="bestseller-content">
+                                            <h6>Dark Psychology Secrets</h6>
+                                            <p class="writer">Daniel James Hollins</p>
+                                            <p class="book-price">$25.50<sub><del>$28.60</del></sub></p>
+                                            <a class="b-btn">Buy Now</a>
+                                        </div>
+                                    </div>
+                            </div>
+                            <div class="bestseller-card">
+                                <h1 class="px-fontstyle">3</h2>
+                                    <div class="bestseller-img">
+                                        <img src="images/best3.jpeg" alt="Book image">
+                                        <div class="bestseller-content">
+                                            <h6>As a Man Thinketh</h6>
+                                            <p class="writer">James Allen</p>
+                                            <p class="book-price">$25.50<sub><del>$28.60</del></sub></p>
+                                            <a class="b-btn">Buy Now</a>
+                                        </div>
+                                    </div>
+                            </div>
+                            <div class="bestseller-card">
+                                <h1 class="px-fontstyle">4</h2>
+                                    <div class="bestseller-img">
+                                        <img src="images/best4.jpg" alt="Book image">
+                                        <div class="bestseller-content">
+                                            <h6>The Art of War</h6>
+                                            <p class="writer">Sun Tzu</p>
+                                            <p class="book-price">$25.50<sub><del>$28.60</del></sub></p>
+                                            <a class="b-btn">Buy Now</a>
+                                        </div>
+                                    </div>
+                            </div>
+                            <div class="bestseller-card">
+                                <h1 class="px-fontstyle">5</h2>
+                                    <div class="bestseller-img">
+                                        <img src="images/best5.jpg" alt="Book image">
+                                        <div class="bestseller-content">
+                                            <h6>Think Like A Monk</h6>
+                                            <p class="writer">Jay Shetty</p>
+                                            <p class="book-price">$25.50<sub><del>$28.60</del></sub></p>
+                                            <a class="b-btn">Buy Now</a>
+                                        </div>
+                                    </div>
+                            </div>
+                            <div class="bestseller-card">
+                                <h1 class="px-fontstyle">6</h2>
+                                    <div class="bestseller-img">
+                                        <img src="images/best6.jpg" alt="Book image">
+                                        <div class="bestseller-content">
+                                            <h6>Atomic Habits</h6>
+                                            <p class="writer">James Clear</p>
+                                            <p class="book-price">$25.50<sub><del>$28.60</del></sub></p>
+                                            <a class="b-btn">Buy Now</a>
+                                        </div>
+                                    </div>
+                            </div>
+                            <div class="bestseller-card">
+                                <h1 class="px-fontstyle">7</h2>
+                                    <div class="bestseller-img">
+                                        <img src="images/best7.jpg" alt="Book image">
+                                        <div class="bestseller-content">
+                                            <h6>Do Epic Shit</h6>
+                                            <p class="writer">Ankur Warikoo</p>
+                                            <p class="book-price">$25.50<sub><del>$28.60</del></sub></p>
+                                            <a class="b-btn">Buy Now</a>
+                                        </div>
+                                    </div>
+                            </div>
+                            <div class="bestseller-card">
+                                <h1 class="px-fontstyle">8</h2>
+                                    <div class="bestseller-img">
+                                        <img src="images/best8.jpg" alt="Book image">
+                                        <div class="bestseller-content">
+                                            <h6>The Subtle Art of Not Giving a F*ck</h6>
+                                            <p class="writer">Mark Manson</p>
+                                            <p class="book-price">$25.50<sub><del>$28.60</del></sub></p>
+                                            <a class="b-btn">Buy Now</a>
+                                        </div>
+                                    </div>
+                            </div>
+                            <div class="bestseller-card">
+                                <h1 class="px-fontstyle">9</h2>
+                                    <div class="bestseller-img">
+                                        <img src="images/best9.jpg" alt="Book image">
+                                        <div class="bestseller-content">
+                                            <h6>The Great Gatsby</h6>
+                                            <p class="writer">F. Scott Fitzgerald</p>
+                                            <p class="book-price">$25.50<sub><del>$28.60</del></sub></p>
+                                            <a class="b-btn">Buy Now</a>
+                                        </div>
+                                    </div>
+                            </div>
+                            <div class="bestseller-card">
+                                <h1 class="px-fontstyle">10</h2>
+                                    <div class="bestseller-img">
+                                        <img src="images/best10.jpg" alt="Book image">
+                                        <div class="bestseller-content">
+                                            <h6>The Girl on the Train</h6>
+                                            <p class="writer">Paul Hawkins</p>
+                                            <p class="book-price">$25.50<sub><del>$28.60</del></sub></p>
+                                            <a class="b-btn">Buy Now</a>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                </div>
+            </section>
+
+            <!-- Reviews -->
+
+            <section>
+                <div class="reviews">
+                    <h1 class="px-color p-fontsize text-center ">Reviews</h1>
+                    <div class="reviews-box">
+                        <div class="reviews-card">
+                            <i class="fa-solid fa-quote-right"></i>
+                            <div class="top-card">
+                                <img src="images/review1.png" alt="Reviews">
+                            </div>
+                            <div class="bottom-card">
+                                <span class="reviewer">Emily Davenport</span>
+                                <p class="px-margin">A literary haven! Bookworm's Haven has an enchanting
+                                    collection. Each book feels like a treasure waiting to be discovered. Fast delivery
+                                    and a delightful customer experience. My go-to for literary escapes.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="reviews-card">
+                            <i class="fa-solid fa-quote-right"></i>
+                            <div class="top-card">
+                                <img src="images/review2.png" alt="Reviews">
+                            </div>
+                            <div class="bottom-card">
+                                <span class="reviewer">Henry Harper</span>
+                                <p class="px-margin">Impeccable service! Bookworm's Haven not only delivers books
+                                    swiftly but also fosters a sense of community. I love engaging in discussions and
+                                    exploring personalized recommendations. A book lover's paradise!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="reviews-card">
+                            <i class="fa-solid fa-quote-right"></i>
+                            <div class="top-card">
+                                <img src="images/review3.png" alt="Reviews">
+                            </div>
+                            <div class="bottom-card">
+                                <span class="reviewer">Lily Benett</span>
+                                <p class="px-margin">Exceptional finds! Bookworm's Haven curates a diverse range of
+                                    genres. The blog offers fascinating insights. Secure transactions and personalized
+                                    recommendations make shopping here a pleasure.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="reviews-card">
+                            <i class="fa-solid fa-quote-right"></i>
+                            <div class="top-card">
+                                <img src="images/review4.png" alt="Reviews">
+                            </div>
+                            <div class="bottom-card">
+                                <span class="reviewer">Mason Turner</span>
+                                <p class="px-margin">A literary journey awaits! Bookworm's Haven goes beyond
+                                    selling books—it creates an experience. Exclusive events and author spotlights add
+                                    depth to the reading adventure. Highly recommended
+                                </p>
+                            </div>
+                        </div>
+                        <div class="reviews-card">
+                            <i class="fa-solid fa-quote-right"></i>
+                            <div class="top-card">
+                                <img src="images/review5.png" alt="Reviews">
+                            </div>
+                            <div class="bottom-card">
+                                <span class="reviewer">Victor Wells</span>
+                                <p class="px-margin">Customer-centric brilliance! Bookworm's Haven excels in
+                                    customer support, making the shopping process seamless. The mobile-friendly design
+                                    ensures a convenient browsing experience. Love the personalized touch!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Banner -->
+
+            <div class="banner"></div>
+
+            <!-- Contact Us -->
+            <section class="contact" id="contact-us">
+                <div class="contact-form">
+                    <h1 class="px-color p-fontsize text-center ">Contact Us</h1>
+                    <form class="form-font contact-container">
+
+                        <label for="fname">First Name:</label>
+                        <input type="text" id="fname" name="name" placeholder="First Name" required>
+
+                        <label for="lname">Last name:</label>
+                        <input type="text" id="lname" name="name" placeholder="Last Name" required>
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Email" required>
+
+                        <label for="subject">Message:</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.."
+                            style="height:200px"></textarea>
+
+                        <button type="submit">Submit</button>
+
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about-us">About</a></li>
+                            <li><a href="#book-store">Book Store</a></li>
+                            <li><a href="#contact-us">Contact Us</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col">
+                        <h4>Category</h4>
+                        <ul>
+                            <li><a href="#">Business</a></li>
+                            <li><a href="#">Fiction</a></li>
+                            <li><a href="#">Technology</a></li>
+                            <li><a href="#">Children</a></li>
+                        </ul>
+
+                    </div>
+
+                    <div class="footer-col">
+                        <h4>Get Help</h4>
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Shipping</a></li>
+                            <li><a href="#">Returns</a></li>
+                            <li><a href="#">Order Status</a></li>
+                            <li><a href="#">Payments Options</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col">
+                        <h4>Follow Us</h4>
+                        <div class="social-links">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+    </div>
+</body>
+
+</html>
