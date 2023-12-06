@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+
+:root {
+    --digit-color: #505050;
+    --operation-color: #FF9500;
+    --background-color: #1C1C1C;
+    --functinal-color: #a2a2a2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #1C1C1C;
+    text-align: center;
+    align-items: center;
+}
+
+html,
+body {
+    height: 90vh;
+    width: 80vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.3rem;
+    background-color: #242527;
+    padding:30px 10px;
+    border-radius: 5%;
+}
+
+.button {
+    width: 66px;
+    padding: 20px;
+    margin: 0 3px;
+    border: 1px solid black;
+    border-radius: 100%;
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+
+#function {
+    background-color: var(--functinal-color);
+}
+
+#operator {
+    background-color: var(--operation-color);
+    color: white;
+}
+
+#digit{
+    background-color: var(--digit-color);
+    color: white;
+}
+.row {
+    margin: 8px 0;
+    background-color: #242527;
+}
+
+.row input {
+    width: 291px;
+    height: 65px;
+    font-size: 25px;
+    margin: 0;
+    padding: 10px 0px;
+    border: 0.5px solid black;
+    border-radius: 4px;
+    color: white;
+}
+
+.row:last-child > .button:first-child {
+    display: start;
+    justify-content: start;
+    text-align: left;
+    padding-left: 120px;
+    width: 7%;
+    max-width: 47%;
+    border-radius: 100px 100px 100px 100px;
+}
+
